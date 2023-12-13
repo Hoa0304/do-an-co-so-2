@@ -1,0 +1,14 @@
+@use '../../assets/stylesheets/abstracts/' as *;
+
+.loading {
+  border-radius: 50%;
+  border-style: solid;
+  border-top-color: transparent;
+  animation: spiner 1.5s linear infinite;
+}
+
+@keyframes spiner {
+  to {
+    transform: rotate(360deg);
+  }
+}
